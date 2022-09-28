@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: center;
+    /* background-color: lightcoral; */
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    /* border: 10px black solid; */
+}
+
+main div {
+ margin-left: 20px;
+ margin-right: 20px;   
+}
+
+div p{
+    display: flex;
+    justify-content: center;
+}
